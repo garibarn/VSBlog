@@ -1,13 +1,13 @@
 {
-	"name": "cat-coding",
-	"description": "Cat Coding - A Webview API Sample",
-	"version": "0.0.1",
-	"publisher": "vscode-samples",
+	"name": "VSBlog",
+	"description": "VScode Extension for Blogger.",
+	"version": "0.0.0",
+	"publisher": "itozyun",
 	"private": true,
 	"license": "MIT",
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/Microsoft/vscode-extension-samples"
+		"url": "https://github.com/garibarn/VSBlog"
 	},
 	"engines": {
 		"vscode": "^1.47.0"
@@ -36,18 +36,6 @@
 		]
 	},
 	"scripts": {
-		"vscode:prepublish": "npm run compile",
-		"compile": "tsc -p ./",
-		"lint": "eslint \"src/**/*.ts\"",
-		"watch": "tsc -w -p ./"
-	},
-	"devDependencies": {
-		"@types/node": "^16.11.7",
-		"@types/vscode": "^1.47.0",
-		"@types/vscode-webview": "^1.57.0",
-		"@typescript-eslint/eslint-plugin": "^5.42.0",
-		"@typescript-eslint/parser": "^5.42.0",
-		"eslint": "^8.26.0",
-		"typescript": "^4.8.4"
+		"vscode:prepublish": ""
 	}
 }
